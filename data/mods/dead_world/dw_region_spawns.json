@@ -1,0 +1,16 @@
+[
+  {
+    "type": "region_overlay",
+    "regions": [ "all" ],
+    "map_extras": {
+      "build": {
+        "chance": 100,
+        "extras": {
+          "mx_dwzoneradiation": 2000000000
+        }
+      }
+    }
+  }
+
+
+]

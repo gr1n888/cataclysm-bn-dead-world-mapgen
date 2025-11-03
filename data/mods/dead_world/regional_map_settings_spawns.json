@@ -1,0 +1,38 @@
+[
+  {
+    "type": "region_overlay",
+    "regions": [ "all" ],
+    "map_extras": {
+      "forest": {
+        "chance": 100,
+        "extras": {
+          "mx_dwzoneradiation": 2000000000
+        }
+      },
+      "forest_thick": {
+        "chance": 100,
+        "extras": {
+          "mx_dwzoneradiation": 2000000000
+        }
+      },
+      "forest_water": {
+        "chance": 100,
+        "extras": {
+          "mx_dwzoneradiation": 2000000000
+        }
+      },
+      "field": {
+        "chance": 100,
+        "extras": {
+          "mx_dwzoneradiation": 2000000000
+        }
+      },
+	  "road": {
+        "chance": 100,
+        "extras": {
+          "mx_dwzoneradiation": 2000000000
+        }
+		}
+    }
+  }
+]
