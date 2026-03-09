@@ -1,0 +1,39 @@
+[
+    {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_dwzoneradiation",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "				
+      ],
+      "terrain": { " ": "t_null" },
+            "set": [
+        { "square": "radiation", "amount": [ 10, 30 ], "x": 0, "y": 0, "x2": 23, "y2": 23 }
+			]
+		}
+	}
+]
