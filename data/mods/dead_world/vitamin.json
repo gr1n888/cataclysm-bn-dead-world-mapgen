@@ -1,0 +1,13 @@
+[
+  {
+    "id": "cont_vit",
+    "type": "vitamin",
+    "vit_type": "counter",
+    "name": { "str": "Contamination" },
+	"excess": "cont_eff",
+    "min": 0,
+    "max": 40,
+    "rate": "10 m",
+    "disease_excess": [ [ 10, 19 ], [ 20, 29 ], [ 30, 40 ] ]
+  },
+]

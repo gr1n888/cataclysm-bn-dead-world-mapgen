@@ -1,0 +1,10 @@
+[
+  {
+    "type": "effect_type",
+    "id": "cont_eff",
+    "max_intensity": 40,
+    "base_mods": { "int_mod": [ -1 ], "str_mod": [ -1 ], "per_mod": [ -1 ], "rad_min": [ 2 ], "rad_max": [ 6 ], "rad_tick": [ 600 ] },
+    "scaling_mods": { "int_mod": [ -1 ], "str_mod": [ -0.5 ], "per_mod": [ -1 ] },
+	"permanent": true
+  },
+]
