@@ -1,0 +1,14 @@
+[
+  {
+    "type": "recipe",
+    "result": "char_purifier_big",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "survival",
+    "difficulty": 3,
+    "time": "75 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "jerrycan", 1 ] ], [ [ "rag", 12 ] ], [ [ "charcoal", 250 ] ] ]
+  }
+]

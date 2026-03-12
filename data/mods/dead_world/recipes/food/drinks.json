@@ -1,0 +1,51 @@
+[
+  {
+    "type": "recipe",
+    "result": "water_clean",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRINKS",
+    "skill_used": "cooking",
+    "time": "30 m",
+    "autolearn": true,
+    "batch_time_factors": [ 20, 5 ],
+    "qualities": [ { "id": "BOIL", "level": 1 } ],
+    "tools":  [                   
+    [ [ "water_boiling_heat", 3, "LIST" ] ],
+	[ [ "char_purifier", 50 ], [ "char_purifier_big", 50 ] ],
+	[ [ "silver_small", -1 ] ]
+],
+    "components": [ [ [ "water", 1 ] ] ] 
+  },
+  {
+    "type": "recipe",
+    "result": "water_clean",
+	"charges": 8,
+    "category": "CC_FOOD",
+    "id_suffix": "using_water_purifier2",
+    "subcategory": "CSC_FOOD_DRINKS",
+    "skill_used": "cooking",
+    "time": "1 m",
+    "autolearn": true,
+    "tools": [ 
+	[ ["water_purifier", 150 ] ],
+	[ [ "pur_tablets", 1 ] ]
+],
+    "components": [ [ [ "water", 8 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "type": "recipe",
+    "result": "water_clean",
+    "category": "CC_FOOD",
+    "id_suffix": "using_water_purifier",
+    "subcategory": "CSC_FOOD_DRINKS",
+    "skill_used": "cooking",
+    "time": "2 m",
+    "autolearn": true,
+    "tools": [ 
+	[ [ "pur_tablets", 1 ] ]
+],
+    "components": [ [ [ "water", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  }
+]
