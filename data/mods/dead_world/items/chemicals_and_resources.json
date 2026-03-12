@@ -1,0 +1,20 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "pur_tablets",
+    "name": "water purification tablet",
+    "category": "chems",
+    "weight": "1 g",
+    "color": "white",
+    "container": "bottle_plastic_small",
+    "comestible_type": "MED",
+    "symbol": "!",
+    "description": "Intended for the clarification and disinfection of unsafe drinking water, these halazone-based purification tablets remove dangerous contaminants using powerful chemicals.  The label says one tablet purifies up to 2L of water.",
+    "price": "9 USD",
+    "price_postapoc": "20 USD",
+    "volume": "250 ml",
+    "charges": 15,
+    "stack_size": 100,
+    "flags": [ "NO_INGEST" ]
+  }
+]

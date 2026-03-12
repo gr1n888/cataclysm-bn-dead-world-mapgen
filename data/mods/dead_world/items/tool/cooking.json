@@ -1,0 +1,77 @@
+[
+  {
+    "id": "char_purifier_big",
+    "type": "TOOL",
+    "category": "tools_cooking",
+    "name": { "str": "big charcoal water purifier" },
+    "description": "Using this item will purify the water using layered charcoal.  Once the charcoal has purified enough water, it will become unusable and can be disassembled and recycled.  Water taken from uncertain sources like a river may be dirty.",
+    "weight": "5500 g",
+    "volume": "10000 ml",
+    "price": "40 USD",
+    "price_postapoc": "20 USD",
+    "to_hit": -3,
+    "bashing": 3,
+    "material": [ "wood", "plastic" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "initial_charges": 500,
+    "max_charges": 500,
+    "charges_per_use": 1,
+	"looks_like": "jerrycan",
+    "flags": [ "ALLOWS_REMOTE_USE" ]
+  },
+   {
+    "id": "char_purifier",
+    "type": "TOOL",
+    "category": "tools_cooking",
+    "name": { "str": "charcoal water purifier" },
+    "description": "Using this item will purify the water using layered charcoal.  Once the charcoal has purified enough water, it will become unusable and can be disassembled and recycled.  Water taken from uncertain sources like a river may be dirty.",
+    "weight": "1820 g",
+    "volume": "3750 ml",
+    "price": "40 USD",
+    "price_postapoc": "20 USD",
+    "to_hit": -3,
+    "bashing": 3,
+    "material": [ "wood", "plastic" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "initial_charges": 150,
+    "max_charges": 150,
+    "charges_per_use": 1,
+    "flags": [ "ALLOWS_REMOTE_USE" ]
+  },
+    {
+    "id": "water_purifier",
+    "type": "TOOL",
+    "category": "tools_cooking",
+    "name": { "str": "water purifier" },
+    "description": "This is a battery-powered device designed to purify drinking water.  Using this item will purify the contents.  It could be useful for water taken from uncertain sources like a river, as it may be non-potable.",
+    "weight": "1360 g",
+    "volume": "3 L",
+    "price": "100 USD",
+    "price_postapoc": "15 USD",
+    "to_hit": -3,
+    "bashing": 2,
+    "material": [ "plastic", "steel" ],
+    "symbol": ";",
+    "color": "light_blue",
+    "ammo": "battery",
+    "charges_per_use": 1,
+    "flags": [ "ALLOWS_REMOTE_USE" ],
+    "magazines": [
+      [
+        "battery",
+        [
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_minus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell",
+          "light_minus_disposable_cell",
+          "light_disposable_cell"
+        ]
+      ]
+    ],
+    "magazine_well": "250 ml"
+  }
+]
